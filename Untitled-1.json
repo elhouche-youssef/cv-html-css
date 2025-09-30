@@ -1,0 +1,8 @@
+{
+  "type": "chrome",
+  "request": "launch",
+  "name": "Launch Opera",
+  "url": "http://localhost:3000",
+  "webRoot": "${workspaceFolder}",
+  "runtimeExecutable": "C:\\Users\\TonNom\\AppData\\Local\\Programs\\Opera\\launcher.exe"
+}

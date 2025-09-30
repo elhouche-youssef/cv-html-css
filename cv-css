@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.cv-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background: #1f2937;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h3 {
+  border-bottom: 1px solid #4b5563;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.sidebar p, .sidebar li {
+  font-size: 0.9em;
+}
+
+.lang-bar {
+  background: #4b5563;
+  height: 6px;
+  border-radius: 3px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.lang-level {
+  background: #94d2bd;
+  height: 100%;
+}
+
+.main-content {
+  padding: 20px 30px;
+}
+
+.header {
+  background: #94d2bd;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.contact-info {
+  font-size: 0.9em;
+  margin: 10px 0;
+  color: white;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #0d3b66;
+  border-left: 5px solid #94d2bd;
+  padding-left: 10px;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 5px 0 0 20px;
+}
